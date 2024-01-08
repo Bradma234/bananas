@@ -1,0 +1,25 @@
+class DEX:
+    def __init__(self):
+        self.data = {}
+
+    def store_data(self, key, value):
+        self.data[key] = value
+        print(f"Stored data: {key} - {value}")
+
+    def retrieve_data(self, key):
+        if key in self.data:
+            print(f"Retrieved data: {key} - {self.data[key]}")
+            return self.data[key]
+        else:
+            print(f"Key '{key}' not found in DEX")
+
+# Пример использования DEX
+if __name__ == "__main__":
+    my_dex = DEX()
+
+    my_dex.store_data("name", "John")
+    my_dex.store_data("age", 25)
+
+    name = my_dex.retrieve_data("name")
+    age = my_dex.retrieve_data("age")
+    city = my_dex.retrieve_data("city")  # Этот ключ не существует
