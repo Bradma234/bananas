@@ -2,15 +2,7 @@ class DEX:
     def __init__(self):
         self.data = {}
 
-    def store_data(self, key, value):
-        self.data[key] = value
-        print(f"Stored data: {key} - {value}")
-
-    def retrieve_data(self, key):
-        if key in self.data:
-            print(f"Retrieved data: {key} - {self.data[key]}")
-            return self.data[key]
-        else:
+    def store_data(self, ke
             print(f"Key '{key}' not found in DEX")
 
 # Пример использования DEX
