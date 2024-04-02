@@ -1,9 +1,4 @@
-class DEX:
-    def __init__(self):
-        self.data = {}
-
-    def store_data(self, ke
-            print(f"Key '{key}' not found in DEX")
+           print(f"Key '{key}' not found in DEX")
 
 # Пример использования DEX
 if __name__ == "__main__":
