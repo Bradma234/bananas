@@ -8,8 +8,7 @@ if __name__ == "__main__":
     my_dex.store_data("age", 25)
 
     name = my_dex.retrieve_data("name")
-    age = my_dex.retrieve_data("age")
-    city = my_dex.retrieve_data("city")  # Этот ключ не существует# Пример использования DEX
+    age = my_dex.retrieve_dty")  # Этот ключ не существует# Пример использования DEX
 if __name__ == "__main__":
     my_dex = DEX()
 
