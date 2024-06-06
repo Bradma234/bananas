@@ -9,10 +9,7 @@ if __name__ == "__main__":
 
     name = my_dex.retrieve_data("name")
     age = my_dex.retrieve_dty")  # Этот ключ не существует# Пример использования DEX
-if __name__ == "__main__":
-    my_dex = DEX()
 
-    my_dex.store_data("name", "John")
     my_dex.store_data("age", 25)
 
     name = my_dex.retrieve_data("name")
